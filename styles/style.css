@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background-size: cover;
+  background-image: url("/images/arkaplan.jpg");
+  
+}
+.container {
+  padding-top: 3%;
+  width: 80%;
+  margin: auto;
+  color: rgb(190, 37, 37);
+
+}
+
+.content h1{
+  
+  color: rgba(231, 229, 229, 0.479);
+  text-align: center;
+  font-size: 45px;
+}
+.content p{
+  color: rgba(231, 229, 229, 0.849);
+  text-align: center;
+  font-size: 25px;
+  margin-top: 32px;
+}
+.content .link{
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  margin-top: 19px;
+
+}
+.content .link a{
+
+background-color: rgb(161, 151, 151);
+padding: 20px;
+width: 150px;
+color: rgb(12, 5, 5);
+padding: auto;
+text-align: center;
+font-size: 18px;
+text-decoration: none;
+border-radius:56% ;
+opacity:0.6;
+}
+a {
+  color: rgb(190, 37, 37);
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 18px;
+
+}
+
+
+/*header start*/
+header {
+  height: 100px;
+  border-bottom: 2px solid rgba(250, 11, 11, 0.123);
+
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  column-gap: 40px;
+}
+
+/*header end*/
+.logo {
+  border-radius: 80%;
+  opacity: 0.8;
+
+}
